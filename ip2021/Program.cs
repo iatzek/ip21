@@ -6,8 +6,17 @@ namespace ip2021
     {
         static void Main(string[] args)
         {
-            double a = 1, b = 2, c = -1;
+            double a, b, c;
             double x1, x2;
+
+            Console.WriteLine("ax^2+bx+c=0");
+            Console.WriteLine("podaj a");
+            a = Double.Parse(Console.ReadLine());
+            Console.WriteLine("podaj b");
+            b = Double.Parse(Console.ReadLine());
+            Console.WriteLine("podaj c");
+            c = Double.Parse(Console.ReadLine());
+
 
             double delta = b * b - 4 * a * c;
 
