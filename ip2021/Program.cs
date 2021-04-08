@@ -10,11 +10,11 @@ namespace ip2021
             double x1, x2;
 
             Console.WriteLine("ax^2+bx+c=0");
-            Console.WriteLine("podaj a");
+            Console.WriteLine("podaj A");
             a = Double.Parse(Console.ReadLine());
-            Console.WriteLine("podaj b");
+            Console.WriteLine("podaj B");
             b = Double.Parse(Console.ReadLine());
-            Console.WriteLine("podaj c");
+            Console.WriteLine("podaj C");
             c = Double.Parse(Console.ReadLine());
 
 
