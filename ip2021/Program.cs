@@ -24,7 +24,7 @@ namespace ip2021
             {
 
                 x1 = (-b - Math.Sqrt(delta)) / (2 * a);
-                x2 = (-b + Math.Sqrt(delta)) / 2 / a;
+                x2 = (-b + Math.Sqrt(delta)) / (2 * a);
 
                 Console.WriteLine("dwa pierwiastki: {0} {1}", x1, x2);
             } else
